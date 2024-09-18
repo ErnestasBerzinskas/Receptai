@@ -1,0 +1,138 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin:0%;
+    height:100%;
+    padding-top: 0px;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: gray;
+    width: 1020px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    position:relative; 
+    left:17%;
+    line-height: 30px;
+  }
+  .topnav a:hover {
+    background-color: darkgray;
+  }
+  .topnav h3 {
+    float: left;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative; 
+    left:6%;
+  }
+  .dropdwn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    float: left;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+    .gridcontainer {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    gap:25px;
+    }
+
+    .griditem {
+    padding: 1px;
+    font-size: 30px;
+    text-align: center;
+    }
+    .griditem {
+        font-size: 15px;
+    }
+    .button:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    .button {
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+    }
+    .gridcontainer a {
+        text-decoration: none;
+        color: black;
+    }
+    .image {
+        text-align: left;
+        padding-top: 5px;
+    }
+    p {
+        text-align: left;
+        font-size: 17px;
+    }
+    .kosebody {
+        width: 1000px;
+        margin: auto;
+    }
+    footer {
+        background-color:gray ;
+        padding-top: 2rem;
+        padding-bottom: 20px;
+        bottom: 0;
+        right:0;
+        position: fixed;
+        width: 100%;
+        padding: 2;
+      }
+      .footertext {
+        font-size: 20px;
+        text-align: center;
+      }
