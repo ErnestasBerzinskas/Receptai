@@ -41,7 +41,6 @@ body {
     left:6%;
   }
   .dropdwn {
-    color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -50,17 +49,17 @@ body {
   }
   
   .dropdown {
-    position: relative;
-    display: inline-block;
+    position:absolute;
+    display:inline-block;
   }
   
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    background-color: lightgray;
   }
   
   .dropdown-content a {
@@ -68,6 +67,7 @@ body {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    text-align: left;
   }
 
   .dropdown:hover .dropdown-content {
@@ -136,3 +136,41 @@ body {
         font-size: 20px;
         text-align: center;
       }
+      .cepelinaibody {
+        width: 1000px;
+        margin: auto;
+        height: 1570px;
+      }
+      .image1 {
+        text-align: left;
+        padding-top: 5px;
+    }
+    .blynaibody {
+        width: 1000px;
+        margin: auto;
+    }
+    .tinginysbody {
+        width: 1000px;
+        margin: auto;
+        height: 1480px;
+    }
+    .image2 {
+        text-align: left;
+        padding-top: 5px;
+    }
+    .image3 {
+        text-align: left;
+        padding-top: 5px;
+    }
+    .image4 {
+        text-align: left;
+        padding-top: 5px;
+    }
+    .kotletaibody {
+        width: 1000px;
+        margin: auto;
+    }
+    .plovasbody {
+        width: 1000px;
+        margin: auto;
+    }
